@@ -1,0 +1,2745 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (439.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (274.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateProjects (20130729025219)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "projects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130729025219')[0m
+  [1m[35m (383.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (480.7ms)[0m  [1mCREATE TABLE "projects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (324.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (390.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (219.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025219')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (456.6ms)[0m  [1mCREATE TABLE "projects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (315.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (290.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (198.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025219')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.7ms)[0m  select sqlite_version(*)
+  [1m[36m (313.4ms)[0m  [1mCREATE TABLE "projects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (382.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (274.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (227.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025219')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (398.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (366.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateProjects (20130729025219)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (429.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (266.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRecipes (20130729025639)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130729025639')[0m
+  [1m[35m (453.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (339.3ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (382.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (324.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (216.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (462.9ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (407.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (266.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (280.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (320.1ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (282.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (290.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (229.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (484.1ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (324.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (357.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (212.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (393.2ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (274.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (274.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (224.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (343.8ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (257.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (257.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (206.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (541.4ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (324.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (265.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (431.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (422.3ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (390.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (265.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (219.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (377.7ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (348.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (274.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (275.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (329.1ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (274.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (274.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (210.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (350.1ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (273.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (274.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (282.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (416.8ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (340.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (299.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (277.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (440.3ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (282.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (274.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (282.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (413.7ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (332.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (265.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (280.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (431.4ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (266.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (266.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (213.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (365.4ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (315.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (266.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (204.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (324.0ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (257.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (307.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (210.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (369.7ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (332.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (266.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (315.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (428.1ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (391.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (266.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (382.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (355.1ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (282.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (234.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (203.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (243.7ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (240.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (240.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (190.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (353.6ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (273.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (274.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (227.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (336.6ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (324.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (299.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (220.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729025639')[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRecipes (20130729025639)
+Migrating to CreateIngredients (20130729045741)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRecipes (20130729025639)
+Migrating to CreateIngredients (20130729045741)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (310.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (274.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateRecipes (20130729025639)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130729025639')[0m
+  [1m[35m (334.0ms)[0m  commit transaction
+Migrating to CreateIngredients (20130729045741)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRecipes (20130729025639)
+Migrating to CreateIngredients (20130729045741)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRecipes (20130729025639)
+Migrating to CreateIngredients (20130729045741)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (278.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (266.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateRecipes (20130729025639)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130729025639')[0m
+  [1m[35m (294.0ms)[0m  commit transaction
+Migrating to CreateIngredients (20130729045741)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (259.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (257.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateRecipes (20130729025639)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130729025639')[0m
+  [1m[35m (301.0ms)[0m  commit transaction
+Migrating to CreateIngredients (20130729045741)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1mCREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130729045741')
+  [1m[36m (327.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (376.2ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (266.5ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (264.8ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (265.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (266.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (215.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (341.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (355.5ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (324.1ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (273.2ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (282.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (332.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (222.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (224.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (348.8ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (282.1ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (373.0ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (282.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (274.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (282.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (230.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (683.0ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (341.1ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (273.4ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (273.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (274.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (267.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (216.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (333.6ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (257.4ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (298.3ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (257.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (257.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (415.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (214.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-29 09:30:54 -0700
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (0.1ms)[0m  [1mSELECT "recipes".* FROM "recipes" [0m
+  Rendered recipes/index.html.erb within layouts/application (3.0ms)
+Compiled ingredients.css  (14ms)  (pid 4995)
+Compiled recipes.css  (1ms)  (pid 4995)
+Compiled application.css  (27ms)  (pid 4995)
+Compiled jquery.js  (3ms)  (pid 4995)
+Compiled jquery_ujs.js  (0ms)  (pid 4995)
+Compiled ingredients.js  (71ms)  (pid 4995)
+Compiled recipes.js  (1ms)  (pid 4995)
+Compiled application.js  (130ms)  (pid 4995)
+Completed 200 OK in 201ms (Views: 189.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:30:55 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:30:55 -0700
+Served asset /ingredients.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:30:55 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:30:55 -0700
+Served asset /recipes.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:30:55 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:30:55 -0700
+Served asset /recipes.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:30:55 -0700
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:30:55 -0700
+Served asset /ingredients.js - 200 OK (1ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2013-07-29 09:30:57 -0700
+Processing by RecipesController#new as HTML
+  Rendered recipes/_form.html.erb (7.4ms)
+  Rendered recipes/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 55ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:30:57 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:30:57 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:30:57 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:30:57 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:30:57 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:30:57 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:30:57 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:30:57 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/recipes" for 127.0.0.1 at 2013-07-29 09:31:13 -0700
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HfZmZDE3palVzcjrqOUINEbDDF6jsXopjSxrGrZvoaQ=", "recipe"=>{"name"=>"French Toast", "description"=>"A delicious way to start your day"}, "commit"=>"Create Recipe"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.2ms)[0m  [1mINSERT INTO "recipes" ("created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 29 Jul 2013 16:31:13 UTC +00:00], ["description", "A delicious way to start your day"], ["name", "French Toast"], ["updated_at", Mon, 29 Jul 2013 16:31:13 UTC +00:00]]
+  [1m[35m (290.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/recipes/1
+Completed 302 Found in 303ms (ActiveRecord: 295.0ms)
+
+
+Started GET "/recipes/1" for 127.0.0.1 at 2013-07-29 09:31:14 -0700
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered recipes/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:31:14 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:31:14 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:31:14 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:31:14 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:31:14 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:31:14 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:31:14 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:31:14 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/1/ingredients/new" for 127.0.0.1 at 2013-07-29 09:31:16 -0700
+Processing by IngredientsController#new as HTML
+  Parameters: {"recipe_id"=>"1"}
+  [1m[35mRecipe Load (0.1ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered ingredients/_form.html.erb (2.2ms)
+  Rendered ingredients/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 52ms (Views: 11.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:31:16 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:31:16 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:31:16 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:31:16 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:31:16 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:31:16 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:31:16 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:31:16 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/recipes/1/ingredients" for 127.0.0.1 at 2013-07-29 09:31:24 -0700
+Processing by IngredientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HfZmZDE3palVzcjrqOUINEbDDF6jsXopjSxrGrZvoaQ=", "ingredient"=>{"title"=>"Toast"}, "commit"=>"Create Ingredient", "recipe_id"=>"1"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 7ms
+
+NoMethodError (undefined method `description' for #<Ingredient:0x007fe51c672e48>):
+  app/controllers/ingredients_controller.rb:12:in `create'
+
+
+  Rendered /home/bvuon8a0320/.rvm/gems/ruby-2.0.0-p247@ruby2rails3/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/bvuon8a0320/.rvm/gems/ruby-2.0.0-p247@ruby2rails3/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/bvuon8a0320/.rvm/gems/ruby-2.0.0-p247@ruby2rails3/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (225.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (224.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateRecipes (20130729025639)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130729025639')[0m
+  [1m[35m (275.1ms)[0m  commit transaction
+Migrating to CreateIngredients (20130729045741)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1mCREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130729045741')
+  [1m[36m (219.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (301.5ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (257.5ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (306.6ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (257.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (257.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (210.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (312.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+
+
+Started GET "/recipes/" for 127.0.0.1 at 2013-07-29 09:36:41 -0700
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (0.1ms)[0m  SELECT "recipes".* FROM "recipes" 
+  Rendered recipes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:36:41 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:36:41 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:36:41 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:36:41 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:36:41 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:36:41 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:36:41 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:36:41 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2013-07-29 09:36:43 -0700
+Processing by RecipesController#new as HTML
+  Rendered recipes/_form.html.erb (2.2ms)
+  Rendered recipes/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 17ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:36:43 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:36:43 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:36:43 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:36:43 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:36:43 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:36:43 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:36:43 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:36:43 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/recipes" for 127.0.0.1 at 2013-07-29 09:37:03 -0700
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HfZmZDE3palVzcjrqOUINEbDDF6jsXopjSxrGrZvoaQ=", "recipe"=>{"name"=>"Water", "description"=>"H2O does a body good"}, "commit"=>"Create Recipe"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "recipes" ("created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Mon, 29 Jul 2013 16:37:03 UTC +00:00], ["description", "H2O does a body good"], ["name", "Water"], ["updated_at", Mon, 29 Jul 2013 16:37:03 UTC +00:00]]
+  [1m[36m (383.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/recipes/1
+Completed 302 Found in 390ms (ActiveRecord: 384.0ms)
+
+
+Started GET "/recipes/1" for 127.0.0.1 at 2013-07-29 09:37:04 -0700
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered recipes/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:37:04 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:37:04 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:37:04 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:04 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:04 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:04 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:04 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:04 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/1/ingredients/new" for 127.0.0.1 at 2013-07-29 09:37:06 -0700
+Processing by IngredientsController#new as HTML
+  Parameters: {"recipe_id"=>"1"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered ingredients/_form.html.erb (2.5ms)
+  Rendered ingredients/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 23ms (Views: 11.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:37:06 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:06 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:37:06 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:06 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:06 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:37:06 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:06 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:06 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started POST "/recipes/1/ingredients" for 127.0.0.1 at 2013-07-29 09:37:21 -0700
+Processing by IngredientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HfZmZDE3palVzcjrqOUINEbDDF6jsXopjSxrGrZvoaQ=", "ingredient"=>{"title"=>"Water", "description"=>"That's all you need.  All done!"}, "commit"=>"Create Ingredient", "recipe_id"=>"1"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 3ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: description):
+  app/controllers/ingredients_controller.rb:11:in `create'
+
+
+  Rendered /home/bvuon8a0320/.rvm/gems/ruby-2.0.0-p247@ruby2rails3/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/bvuon8a0320/.rvm/gems/ruby-2.0.0-p247@ruby2rails3/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/bvuon8a0320/.rvm/gems/ruby-2.0.0-p247@ruby2rails3/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started POST "/recipes/1/ingredients" for 127.0.0.1 at 2013-07-29 09:37:54 -0700
+Processing by IngredientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HfZmZDE3palVzcjrqOUINEbDDF6jsXopjSxrGrZvoaQ=", "ingredient"=>{"title"=>"Water", "description"=>"That's all you need.  All done!"}, "commit"=>"Create Ingredient", "recipe_id"=>"1"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "ingredients" ("created_at", "description", "recipe_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 29 Jul 2013 16:37:54 UTC +00:00], ["description", "That's all you need.  All done!"], ["recipe_id", 1], ["title", "Water"], ["updated_at", Mon, 29 Jul 2013 16:37:54 UTC +00:00]]
+  [1m[35m (312.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/recipes/1/ingredients/1
+Completed 302 Found in 334ms (ActiveRecord: 313.6ms)
+
+
+Started GET "/recipes/1/ingredients/1" for 127.0.0.1 at 2013-07-29 09:37:54 -0700
+Processing by IngredientsController#show as HTML
+  Parameters: {"recipe_id"=>"1", "id"=>"1"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mIngredient Load (0.2ms)[0m  SELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 1 AND "ingredients"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered ingredients/show.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:37:55 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:37:55 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:55 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:37:55 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:55 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:55 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:55 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:37:55 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (344.9ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (249.1ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (256.6ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (257.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (316.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (219.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (224.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+
+
+Started GET "/recipes" for 127.0.0.1 at 2013-07-29 09:41:29 -0700
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (0.1ms)[0m  [1mSELECT "recipes".* FROM "recipes" [0m
+  Rendered recipes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16ms (Views: 10.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:41:29 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:41:29 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:29 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:29 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:29 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:41:29 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:29 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:29 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2013-07-29 09:41:32 -0700
+Processing by RecipesController#new as HTML
+  Rendered recipes/_form.html.erb (1.6ms)
+  Rendered recipes/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:41:32 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:41:32 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:41:32 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:32 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:32 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:32 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:32 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:32 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/recipes" for 127.0.0.1 at 2013-07-29 09:41:49 -0700
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HfZmZDE3palVzcjrqOUINEbDDF6jsXopjSxrGrZvoaQ=", "recipe"=>{"name"=>"Lemonade", "description"=>"The best drink on a hot summer day"}, "commit"=>"Create Recipe"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "recipes" ("created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 29 Jul 2013 16:41:49 UTC +00:00], ["description", "The best drink on a hot summer day"], ["name", "Lemonade"], ["updated_at", Mon, 29 Jul 2013 16:41:49 UTC +00:00]]
+  [1m[35m (298.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/recipes/2
+Completed 302 Found in 306ms (ActiveRecord: 299.4ms)
+
+
+Started GET "/recipes/2" for 127.0.0.1 at 2013-07-29 09:41:50 -0700
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered recipes/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:41:50 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:41:50 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:50 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:50 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:41:50 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:50 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:50 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:50 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/2/ingredients/new" for 127.0.0.1 at 2013-07-29 09:41:51 -0700
+Processing by IngredientsController#new as HTML
+  Parameters: {"recipe_id"=>"2"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered ingredients/_form.html.erb (2.4ms)
+  Rendered ingredients/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 22ms (Views: 12.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:41:52 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:52 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:52 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:52 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:41:52 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:41:52 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:52 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:41:52 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/recipes/2/ingredients" for 127.0.0.1 at 2013-07-29 09:42:08 -0700
+Processing by IngredientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HfZmZDE3palVzcjrqOUINEbDDF6jsXopjSxrGrZvoaQ=", "ingredient"=>{"title"=>"Lemons", "description"=>"Can't make lemonade without lemons"}, "commit"=>"Create Ingredient", "recipe_id"=>"2"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "ingredients" ("created_at", "description", "recipe_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 29 Jul 2013 16:42:08 UTC +00:00], ["description", "Can't make lemonade without lemons"], ["recipe_id", 2], ["title", "Lemons"], ["updated_at", Mon, 29 Jul 2013 16:42:08 UTC +00:00]]
+  [1m[35m (246.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/recipes/2/ingredients/2
+Completed 302 Found in 253ms (ActiveRecord: 246.7ms)
+
+
+Started GET "/recipes/2/ingredients/2" for 127.0.0.1 at 2013-07-29 09:42:09 -0700
+Processing by IngredientsController#show as HTML
+  Parameters: {"recipe_id"=>"2", "id"=>"2"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mIngredient Load (0.2ms)[0m  SELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2 AND "ingredients"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered ingredients/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 12.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:42:09 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:42:09 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:42:09 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:42:09 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:42:09 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:42:09 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:42:09 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:42:09 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (318.0ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (274.0ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (273.2ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (332.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (324.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (224.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (224.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (321.9ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (399.1ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (314.8ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (232.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (324.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (190.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (191.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (368.8ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (241.0ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (231.4ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (290.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (233.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (188.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (182.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+
+
+Started GET "/recipes/2/ingredients/2" for 127.0.0.1 at 2013-07-29 09:53:29 -0700
+Processing by IngredientsController#show as HTML
+  Parameters: {"recipe_id"=>"2", "id"=>"2"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mIngredient Load (0.0ms)[0m  SELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2 AND "ingredients"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered ingredients/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:30 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:30 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:30 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:30 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:30 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:30 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:30 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:30 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/2/ingredients/2" for 127.0.0.1 at 2013-07-29 09:53:31 -0700
+Processing by IngredientsController#show as HTML
+  Parameters: {"recipe_id"=>"2", "id"=>"2"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mIngredient Load (0.0ms)[0m  SELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2 AND "ingredients"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered ingredients/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:31 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:31 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:31 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:31 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:31 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:31 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:31 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:31 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-29 09:53:34 -0700
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT "recipes".* FROM "recipes" [0m
+  Rendered recipes/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:34 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:34 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:34 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:34 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:34 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:34 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:34 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:34 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/2" for 127.0.0.1 at 2013-07-29 09:53:36 -0700
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRecipe Load (0.1ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mIngredient Load (0.1ms)[0m  [1mSELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2[0m
+  Rendered recipes/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:36 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:36 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:36 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:36 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:36 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:36 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:36 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:36 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/2/ingredients/new" for 127.0.0.1 at 2013-07-29 09:53:39 -0700
+Processing by IngredientsController#new as HTML
+  Parameters: {"recipe_id"=>"2"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered ingredients/_form.html.erb (2.2ms)
+  Rendered ingredients/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:39 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:39 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:39 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:39 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:39 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:39 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:39 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:39 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/recipes/2/ingredients" for 127.0.0.1 at 2013-07-29 09:53:53 -0700
+Processing by IngredientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HfZmZDE3palVzcjrqOUINEbDDF6jsXopjSxrGrZvoaQ=", "ingredient"=>{"title"=>"Water", "description"=>"Can't make lemonade without water"}, "commit"=>"Create Ingredient", "recipe_id"=>"2"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "ingredients" ("created_at", "description", "recipe_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 29 Jul 2013 16:53:53 UTC +00:00], ["description", "Can't make lemonade without water"], ["recipe_id", 2], ["title", "Water"], ["updated_at", Mon, 29 Jul 2013 16:53:53 UTC +00:00]]
+  [1m[35m (309.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/recipes/2/ingredients/3
+Completed 302 Found in 314ms (ActiveRecord: 310.1ms)
+
+
+Started GET "/recipes/2/ingredients/3" for 127.0.0.1 at 2013-07-29 09:53:53 -0700
+Processing by IngredientsController#show as HTML
+  Parameters: {"recipe_id"=>"2", "id"=>"3"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mIngredient Load (0.1ms)[0m  SELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2 AND "ingredients"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered ingredients/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:53 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:53 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:53 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:53 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:53 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 09:53:53 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:53 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 09:53:53 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (369.5ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (274.0ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (374.9ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (274.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (324.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (373.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (222.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (441.2ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (299.5ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (306.4ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (257.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (267.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (214.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (216.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (385.6ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (282.2ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (281.5ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (373.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (250.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (211.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (208.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (318.0ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (240.7ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (248.1ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (257.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (257.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (223.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (274.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (345.4ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (257.7ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (315.0ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (257.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (266.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (207.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (315.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (324.7ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (249.0ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (265.1ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (249.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (249.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (248.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (202.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (437.9ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (273.7ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (281.9ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (373.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (282.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (230.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (326.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+
+
+Started GET "/recipes/" for 127.0.0.1 at 2013-07-29 10:21:22 -0700
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (0.1ms)[0m  [1mSELECT "recipes".* FROM "recipes" [0m
+  Rendered recipes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 10.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:21:22 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:21:22 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:22 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:21:22 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:22 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:22 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:22 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:22 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/2" for 127.0.0.1 at 2013-07-29 10:21:24 -0700
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mIngredient Load (0.1ms)[0m  [1mSELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2[0m
+  Rendered recipes/show.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:21:24 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:21:24 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:21:24 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:24 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:24 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:24 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:24 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:24 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/2/ingredients/new" for 127.0.0.1 at 2013-07-29 10:21:26 -0700
+Processing by IngredientsController#new as HTML
+  Parameters: {"recipe_id"=>"2"}
+  [1m[35mRecipe Load (0.1ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered ingredients/_form.html.erb (1.9ms)
+  Rendered ingredients/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:21:26 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:21:26 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:26 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:26 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:21:26 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:26 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:26 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/recipes/2/ingredients" for 127.0.0.1 at 2013-07-29 10:21:45 -0700
+Processing by IngredientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HfZmZDE3palVzcjrqOUINEbDDF6jsXopjSxrGrZvoaQ=", "ingredient"=>{"title"=>"Sugar", "description"=>"Some sweetness to offset the lemons"}, "commit"=>"Create Ingredient", "recipe_id"=>"2"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "ingredients" ("created_at", "description", "recipe_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 29 Jul 2013 17:21:45 UTC +00:00], ["description", "Some sweetness to offset the lemons"], ["recipe_id", 2], ["title", "Sugar"], ["updated_at", Mon, 29 Jul 2013 17:21:45 UTC +00:00]]
+  [1m[35m (307.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/recipes/2/ingredients/4
+Completed 302 Found in 314ms (ActiveRecord: 308.3ms)
+
+
+Started GET "/recipes/2/ingredients/4" for 127.0.0.1 at 2013-07-29 10:21:46 -0700
+Processing by IngredientsController#show as HTML
+  Parameters: {"recipe_id"=>"2", "id"=>"4"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mIngredient Load (0.3ms)[0m  SELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2 AND "ingredients"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered ingredients/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 19ms (Views: 15.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:21:46 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:46 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:21:46 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:21:46 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:46 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:46 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:46 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:21:46 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/recipes/2/ingredients/4" for 127.0.0.1 at 2013-07-29 10:26:01 -0700
+Processing by IngredientsController#show as HTML
+  Parameters: {"recipe_id"=>"2", "id"=>"4"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mIngredient Load (0.0ms)[0m  SELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2 AND "ingredients"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered ingredients/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:26:01 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:26:01 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:26:01 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:26:01 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:26:01 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:26:01 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:26:01 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:26:01 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/2/ingredients" for 127.0.0.1 at 2013-07-29 10:26:03 -0700
+
+AbstractController::ActionNotFound (The action 'index' could not be found for IngredientsController):
+  actionpack (3.2.13) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  warden (1.1.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.1.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.1.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2560876915983401254__call__2236612030826334016__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/bvuon8a0320/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/bvuon8a0320/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/bvuon8a0320/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bvuon8a0320/.rvm/gems/ruby-2.0.0-p247@ruby2rails3/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/recipes/2/ingredients/4" for 127.0.0.1 at 2013-07-29 10:27:09 -0700
+Processing by IngredientsController#show as HTML
+  Parameters: {"recipe_id"=>"2", "id"=>"4"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mIngredient Load (0.1ms)[0m  SELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2 AND "ingredients"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered ingredients/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 18ms (Views: 14.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:09 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:09 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:09 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:09 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:09 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:09 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:09 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:09 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes.2" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Processing by RecipesController#index as 
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT "recipes".* FROM "recipes" [0m
+  Rendered recipes/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/2" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRecipe Load (0.1ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mIngredient Load (0.1ms)[0m  [1mSELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2[0m
+  Rendered recipes/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:11 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/2/ingredients/new" for 127.0.0.1 at 2013-07-29 10:27:14 -0700
+Processing by IngredientsController#new as HTML
+  Parameters: {"recipe_id"=>"2"}
+  [1m[35mRecipe Load (0.1ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered ingredients/_form.html.erb (1.7ms)
+  Rendered ingredients/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:14 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:14 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:14 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:14 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:14 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:14 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:14 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:14 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/recipes/2/ingredients" for 127.0.0.1 at 2013-07-29 10:27:32 -0700
+Processing by IngredientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HfZmZDE3palVzcjrqOUINEbDDF6jsXopjSxrGrZvoaQ=", "ingredient"=>{"title"=>"Salt", "description"=>"Not too much."}, "commit"=>"Create Ingredient", "recipe_id"=>"2"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "ingredients" ("created_at", "description", "recipe_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 29 Jul 2013 17:27:32 UTC +00:00], ["description", "Not too much."], ["recipe_id", 2], ["title", "Salt"], ["updated_at", Mon, 29 Jul 2013 17:27:32 UTC +00:00]]
+  [1m[35m (352.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/recipes/2/ingredients/5
+Completed 302 Found in 358ms (ActiveRecord: 353.1ms)
+
+
+Started GET "/recipes/2/ingredients/5" for 127.0.0.1 at 2013-07-29 10:27:33 -0700
+Processing by IngredientsController#show as HTML
+  Parameters: {"recipe_id"=>"2", "id"=>"5"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mIngredient Load (0.1ms)[0m  SELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2 AND "ingredients"."id" = ? LIMIT 1  [["id", "5"]]
+  Rendered ingredients/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:33 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:33 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:33 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:33 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:33 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:33 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:33 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:33 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes.2" for 127.0.0.1 at 2013-07-29 10:27:35 -0700
+Processing by RecipesController#index as 
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" [0m
+  Rendered recipes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:35 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:35 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:35 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:35 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:35 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:35 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:35 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:35 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/2" for 127.0.0.1 at 2013-07-29 10:27:37 -0700
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mRecipe Load (0.1ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mIngredient Load (0.1ms)[0m  [1mSELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2[0m
+  Rendered recipes/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:37 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:37 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:27:37 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:37 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:37 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:37 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:37 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:27:37 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (372.3ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (257.0ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (256.9ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (240.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (232.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (183.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (191.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+
+
+Started GET "/recipes/2/ingredients/2" for 127.0.0.1 at 2013-07-29 10:28:54 -0700
+Processing by IngredientsController#show as HTML
+  Parameters: {"recipe_id"=>"2", "id"=>"2"}
+  [1m[35mRecipe Load (0.1ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mIngredient Load (0.1ms)[0m  [1mSELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2 AND "ingredients"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered ingredients/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:28:54 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:28:54 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:28:54 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:28:54 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:28:54 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:28:54 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:28:54 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:28:54 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/recipes/2/ingredients/2" for 127.0.0.1 at 2013-07-29 10:28:58 -0700
+Processing by IngredientsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HfZmZDE3palVzcjrqOUINEbDDF6jsXopjSxrGrZvoaQ=", "recipe_id"=>"2", "id"=>"2"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mIngredient Load (0.1ms)[0m  [1mSELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2 AND "ingredients"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "ingredients" WHERE "ingredients"."id" = ?[0m  [["id", 2]]
+  [1m[35m (319.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/recipes/2
+Completed 302 Found in 325ms (ActiveRecord: 319.8ms)
+
+
+Started GET "/recipes/2" for 127.0.0.1 at 2013-07-29 10:28:58 -0700
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mIngredient Load (0.3ms)[0m  SELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 2
+  Rendered recipes/show.html.erb within layouts/application (34.1ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:28:59 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:28:59 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:28:59 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:28:59 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:28:59 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:28:59 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:28:59 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:28:59 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes.2" for 127.0.0.1 at 2013-07-29 10:30:24 -0700
+Processing by RecipesController#index as 
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT "recipes".* FROM "recipes" [0m
+  Rendered recipes/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:30:24 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:30:24 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:30:24 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:24 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:24 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:24 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:24 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:24 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2013-07-29 10:30:26 -0700
+Processing by RecipesController#new as HTML
+  Rendered recipes/_form.html.erb (3.7ms)
+  Rendered recipes/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:30:26 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:30:26 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:30:26 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:26 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:26 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:26 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:26 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/recipes" for 127.0.0.1 at 2013-07-29 10:30:37 -0700
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HfZmZDE3palVzcjrqOUINEbDDF6jsXopjSxrGrZvoaQ=", "recipe"=>{"name"=>"Bagel", "description"=>"bagel"}, "commit"=>"Create Recipe"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "recipes" ("created_at", "description", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 29 Jul 2013 17:30:37 UTC +00:00], ["description", "bagel"], ["name", "Bagel"], ["updated_at", Mon, 29 Jul 2013 17:30:37 UTC +00:00]]
+  [1m[35m (280.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/recipes/3
+Completed 302 Found in 292ms (ActiveRecord: 281.1ms)
+
+
+Started GET "/recipes/3" for 127.0.0.1 at 2013-07-29 10:30:38 -0700
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mIngredient Load (0.1ms)[0m  SELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 3
+  Rendered recipes/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:30:38 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:38 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:38 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:30:38 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:38 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:30:38 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:38 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:38 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes/3/ingredients/new" for 127.0.0.1 at 2013-07-29 10:30:40 -0700
+Processing by IngredientsController#new as HTML
+  Parameters: {"recipe_id"=>"3"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered ingredients/_form.html.erb (1.6ms)
+  Rendered ingredients/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:30:40 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:40 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:40 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:30:40 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:40 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:30:40 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:40 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:30:40 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/recipes/3/ingredients" for 127.0.0.1 at 2013-07-29 10:31:01 -0700
+Processing by IngredientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HfZmZDE3palVzcjrqOUINEbDDF6jsXopjSxrGrZvoaQ=", "ingredient"=>{"title"=>"cream cheese", "description"=>"nothing much"}, "commit"=>"Create Ingredient", "recipe_id"=>"3"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "ingredients" ("created_at", "description", "recipe_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 29 Jul 2013 17:31:01 UTC +00:00], ["description", "nothing much"], ["recipe_id", 3], ["title", "cream cheese"], ["updated_at", Mon, 29 Jul 2013 17:31:01 UTC +00:00]]
+  [1m[36m (377.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/recipes/3/ingredients/6
+Completed 302 Found in 384ms (ActiveRecord: 378.2ms)
+
+
+Started GET "/recipes/3/ingredients/6" for 127.0.0.1 at 2013-07-29 10:31:02 -0700
+Processing by IngredientsController#show as HTML
+  Parameters: {"recipe_id"=>"3", "id"=>"6"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mIngredient Load (0.3ms)[0m  [1mSELECT "ingredients".* FROM "ingredients" WHERE "ingredients"."recipe_id" = 3 AND "ingredients"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  Rendered ingredients/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:31:02 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:31:02 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:31:02 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:31:02 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:31:02 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:31:02 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:31:02 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:31:02 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/recipes.3" for 127.0.0.1 at 2013-07-29 10:32:28 -0700
+Processing by RecipesController#index as 
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT "recipes".* FROM "recipes" 
+  Rendered recipes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:32:28 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:32:28 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:32:28 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:32:28 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:32:28 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:32:28 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:32:28 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:32:28 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-29 10:51:42 -0700
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (0.1ms)[0m  [1mSELECT "recipes".* FROM "recipes" [0m
+  Rendered recipes/index.html.erb within layouts/application (2.3ms)
+Compiled bootstrap_and_overrides.css  (616ms)  (pid 6419)
+Compiled application.css  (642ms)  (pid 6419)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 6419)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 6419)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 6419)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 6419)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 6419)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 6419)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (25ms)  (pid 6419)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 6419)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 6419)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 6419)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 6419)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 6419)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 6419)
+Compiled twitter/bootstrap.js  (57ms)  (pid 6419)
+Compiled bootstrap.js  (35ms)  (pid 6419)
+Compiled application.js  (100ms)  (pid 6419)
+Completed 200 OK in 798ms (Views: 783.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:51:43 -0700
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-29 10:51:43 -0700
+Served asset /bootstrap_and_overrides.css - 200 OK (4ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:51:43 -0700
+Served asset /recipes.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:43 -0700
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:51:43 -0700
+Served asset /ingredients.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:43 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:43 -0700
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (24ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:43 -0700
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:43 -0700
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:43 -0700
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:43 -0700
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:43 -0700
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:43 -0700
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:43 -0700
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:44 -0700
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:44 -0700
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:44 -0700
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:44 -0700
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:44 -0700
+Served asset /twitter/bootstrap/bootstrap-affix.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:44 -0700
+Served asset /twitter/bootstrap.js - 200 OK (18ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:44 -0700
+Served asset /bootstrap.js - 200 OK (1ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:44 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:44 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:44 -0700
+Served asset /application.js - 200 OK (12ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Processing by RecipesController#new as HTML
+  Rendered recipes/_form.html.erb (34.1ms)
+  Rendered recipes/new.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 59ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /recipes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.css?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /ingredients.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ingredients.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /ingredients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /recipes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:51:46 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (347.1ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (315.7ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (390.0ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (270.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (274.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (323.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (224.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (385.6ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (274.2ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (273.3ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (273.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (274.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (228.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (224.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (459.4ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (324.3ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (406.6ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (273.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (324.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (273.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (213.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (364.3ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (324.7ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (316.1ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (316.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (324.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (221.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (318.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (423.1ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (374.1ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (315.3ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (255.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (366.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (214.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (216.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (340.7ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (266.0ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (264.9ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (264.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (282.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (315.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (216.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (373.8ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (332.4ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (264.9ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (333.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (266.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (283.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (274.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (375.4ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (382.3ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (274.5ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (270.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (274.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (398.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (229.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (408.5ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (374.1ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (315.1ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (274.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (366.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (222.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (224.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (279.2ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (324.2ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (273.1ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (361.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (316.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (215.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (266.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (393.6ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (316.0ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (356.5ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (268.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (316.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (273.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (221.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (318.5ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (315.9ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (264.7ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (266.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (416.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (225.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (224.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (623.8ms)[0m  [1mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (332.5ms)[0m  CREATE INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")
+  [1m[36m (323.2ms)[0m  [1mCREATE TABLE "recipes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (278.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (332.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (227.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130729045741')[0m
+  [1m[35m (224.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130729025639')

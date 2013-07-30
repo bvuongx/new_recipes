@@ -1,0 +1,1 @@
+This is a simple app for collecting recipes.  It was designed using BDD and demonstrates nested resources and twitter bootstrap.

@@ -1,0 +1,23 @@
+<title><%= @title || "Recipes" %></title>
+
+<%= link_to "Recipe Home", recipes_path(@recipe) %>
+
+<%= link_to "Edit Recipe", edit_recipe_path(@recipe) %>
+
+<%= link_to "Delete Recipe",
+    recipe_path(@recipe),
+    :method => :delete,
+    :confirm => "Are you sure you want to delete this recipe?" %>
+
+<%= link_to "New Ingredient", new_recipe_ingredient_path(@recipe) %>
+
+<ul id='ingredients'>
+  <% @recipe.ingredients.each do |ingredient| %>
+    <li>
+      <%= link_to ingredient.title, [@recipe, ingredient] %>
+    </li>
+  <% end %>
+</ul>
+
+
+
